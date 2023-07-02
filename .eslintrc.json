@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "semi": "off", // No requerir punto y coma al final de cada línea
+    "indent": ["error", "tab"], // Utilizar una tabulación por línea en la indentación
+    "quotes": ["error", "single"], // Utilizar comillas simples en todas las importaciones
+    "react/react-in-jsx-scope": "off", // No es necesario importar React en archivos de componentes de React
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }] // No permitir saltos de línea en los componentes tsx
+  }
+}

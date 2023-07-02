@@ -1,0 +1,20 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'header' 'content';
+    grid-template-rows: minmax(min-content, 80px) 2fr;
+}
+
+.header {
+    display: grid;
+    grid-area: header;
+    background-color: aqua;
+}
+
+.content {
+    display: grid;
+    padding: 10px;
+    grid-area: content;
+    background-color: brown;
+}
