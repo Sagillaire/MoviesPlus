@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    background-color: #141a32;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.conLogo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.links {
+    color: white;
+    justify-content: space-between;  
+    text-decoration: none; 
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.seContainer {
+    display: flex;
+    align-items: center;
+}
+
+.anime {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.arreglo {
+    display: flex;
+    gap: 40px;
+}
