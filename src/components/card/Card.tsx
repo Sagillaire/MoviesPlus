@@ -1,8 +1,9 @@
-import React, { Children } from 'react'
+import { FC } from 'react'
 import styles from './card.module.css'
-import Image from 'next/image'
+import Image from 'next/image' 
+import { ICard } from './types'
 
-const Card = ({ imgCard, title, desc, fecha }) => {
+const Card: FC<ICard> = ({ imgCard, title, desc, fecha }) => {
   return (
     <div className={styles.card}>
       <Image
