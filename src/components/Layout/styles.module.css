@@ -3,7 +3,7 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 'header' 'content';
-    grid-template-rows: minmax(min-content, 80px) 2fr;
+    grid-template-rows: minmax(min-content, 72px) 2fr;
 }
 
 .header {

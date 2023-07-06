@@ -1,0 +1,36 @@
+.card {
+    height: 250px;
+    width: 145px;
+    border-radius: 5px;
+    padding: 0;
+    position: relative;
+  }
+
+.img {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.cardDate {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  background: blue;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
